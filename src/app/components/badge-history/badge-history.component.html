@@ -1,0 +1,8 @@
+<h1>Histórico de Badges</h1>
+<ul>
+  <li *ngFor="let badge of badges">
+    <h2>{{ badge.name }}</h2>
+    <p>{{ badge.description }}</p>
+    <p>Obtido em: {{ badge.earnedDate }}</p>
+  </li>
+</ul>
